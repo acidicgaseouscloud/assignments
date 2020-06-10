@@ -1,0 +1,130 @@
+/* CSS stylesheet */
+/* colour scheme: Royal blue: #334D8F; Pool blue: #5AC5EF; 
+Mango: #FEB845; Blood orange: #E7552C; */
+
+body{
+	background-color: #334D8F ;
+	color: #F7F7F7;
+	font-family: Helvetica, sans-serif ;
+	line-height: 1.5em;
+	margin:0;
+}
+
+a {
+	color: #fff;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+#mainHeader{
+	background-color: #E7552C;
+	color: #fff;
+	padding-top: 7px;
+}
+
+
+#navbar{
+	background-color: #333;
+	color: #F7F7F7;
+}
+
+#navbar ul{
+	list-style: none;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+#navbar li{
+	display: inline;
+}
+
+#navbar a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 30px;
+}
+
+#navbar a:hover{
+	color: #5AC5EF;
+}
+
+li a:hover{
+	color: #FEB845;
+}
+
+
+#showcase{
+/*	background-image:url(img/blum.jpeg); 
+	background-position: center 2050px; */
+	min-height: 300px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#showcase h1{
+	color: #F7F7F7;
+	font-size: 50px;
+	line-height: 1.5em;
+	padding-top: 60px;
+}
+
+#main{
+	float:left;
+	width: 70%;
+	padding: 0 30px;
+	box-sizing: border-box;
+}
+
+#sidebar{
+	float: right;
+	width: 30%;
+	background: #333; 
+	color: #fff;
+	padding: 15px;
+	box-sizing: border-box;
+	text-align: left;
+}
+
+#mainFooter{
+	background: #333; 
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
+
+.clr{
+	clear:both;
+}
+
+
+
+@media(max-width:800px){
+	#main{
+		width: 100%;
+		float:none;
+	}
+	#sidebar{
+		width:100%;
+		float:none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
