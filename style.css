@@ -24,12 +24,17 @@ a {
 	background-color: #E7552C;
 	color: #fff;
 	padding-top: 7px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
 }
 
 
 #navbar{
 	background-color: #333;
-	color: #F7F7F7;
+	position: fixed;
+	top: 73px;
+	width: 100%;
 }
 
 #navbar ul{
@@ -43,7 +48,7 @@ a {
 }
 
 #navbar a{
-	color: #fff;
+	color: #F7F7F7;
 	text-decoration: none;
 	font-size: 18px;
 	padding-right: 30px;
@@ -51,6 +56,10 @@ a {
 
 #navbar a:hover{
 	color: #5AC5EF;
+}
+
+#navbar a.active {
+	color: #FEB845; 
 }
 
 li a:hover{
@@ -64,6 +73,7 @@ li a:hover{
 	min-height: 300px;
 	margin-bottom: 30px;
 	text-align: center;
+	margin-top: 129px;
 }
 
 #showcase h1{
@@ -102,15 +112,26 @@ li a:hover{
 	clear:both;
 }
 
+.bodimg{
+	display: block;
+	width: 80%;
+	margin: auto;
+	padding: 20px 0;
+	box-sizing: border-box;
 
+}
 
-@media(max-width:800px){
+@media(max-width:790px){
 	#main{
 		width: 100%;
 		float:none;
 	}
 	#sidebar{
 		width:100%;
+		float:none;
+	}
+	.container{
+		width: 100%;
 		float:none;
 	}
 }
