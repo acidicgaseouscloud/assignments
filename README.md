@@ -1,3 +1,3 @@
-# Weekly Assignments for HTML
+# Assignments for HTML
 
-This is me learning how to do HTML
+I'm following a course on HTML, these are my assignments for it.
