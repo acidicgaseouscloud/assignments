@@ -1,0 +1,83 @@
+/* CSS stylesheet */
+/* colour scheme: blue: #33E0C4, #07575B, #66A5AD; grey: #333, #3A3F45, #202731; white: #F7F7F7, #EDEDED; purple: #6B50FB; coral: #EE8C74; Orange: #FA812F; green: #5C821A*/
+
+body{
+	background-color: #F7F7F7 ;
+	color: black;
+	font-family: Helvetica, sans-serif ;
+	line-height: 1.5em;
+	margin:0;
+}
+
+a {
+	color: #fff;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+#mainHeader{
+	background-color: #33E0C4;
+	color: #fff;
+	padding-top: 7px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+}
+
+#mainHeader img{
+	vertical-align: middle;
+	width: 50px;	
+	padding-right: 20px;
+}
+
+.box {
+   display: flex;
+   align-items:center;
+}
+
+#mainHeader h1{
+	display: inline;
+	font-size: 2.5em;
+}
+
+#navbar{
+	background-color: #3A3F45;
+	position: fixed;
+	top: 80px;
+	width: 100%;
+}
+
+
+#navbar ul{
+	list-style: none;
+	padding-left: 0;
+	margin-left: 0;
+	padding-right: 0;
+	margin-right: 0;
+}
+
+#navbar li{
+	display: inline;
+}
+
+#navbar a{
+	color: #F7F7F7;
+	text-decoration: none;
+	font-size: 18px;
+	text-align: center;
+	padding: 20px;
+	margin-right: -5px;
+}
+
+#navbar a:hover{
+	background-color: #BCBABE;
+	color: #202731;
+}
+
+#navbar a.active {
+	background-color: #FA812F;
+	color: #202731; 
+}
