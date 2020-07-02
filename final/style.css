@@ -9,6 +9,8 @@ body{
 	margin:0;
 }
 
+/*font: 15px/1.5 Arial, Helvetica; works the same way as all the above stuff*/
+
 a {
 	color: #fff;
 }
@@ -80,4 +82,78 @@ a {
 #navbar a.active {
 	background-color: #FA812F;
 	color: #202731; 
+}
+
+#titleNav{
+	padding-top: 136px;
+}
+
+#showcase{
+	min-height: 300px;
+	margin-bottom: 30px;
+	text-align: center;
+	width: 100%;
+	background-image:url(assets/img/media.jpg); 
+ 	height: 20%;
+  	background-attachment: fixed;
+  	background-position: center -5px;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+
+#showcase h1{
+	color: #F7F7F7;
+	font-size: 50px;
+	line-height: 1.5em;
+	padding: 60px;
+}
+
+#speakers {
+	margin-top: 20px;
+}
+
+#speakers .speaker{
+	float: left;
+	width: 25%;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#speakers .speaker img{
+	width: 90%;
+	border-radius: 50%;
+	  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+#speakers .speaker:hover img{
+  opacity: 0.3;
+}
+
+
+#mainFooter{
+	background: #3A3F45; 
+	color: #f7f7f7;
+	text-align: center;
+	padding: 2px;
+	margin-top: 40px;
+}
+
+#cocn{
+	color: #BCBABE;
+}
+
+@media(max-width:790px){
+	#main{
+		width: 100%;
+		float:none;
+	}
+	.container{
+		width: 100%;
+		float:none;
+	}
 }
