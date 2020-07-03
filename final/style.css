@@ -240,6 +240,29 @@ tr:hover {
 	margin: 20px;
 }
 
+.clr{
+	clear:both;
+}
+
+.description{
+	float:right;
+	width: 70%;
+	padding: 0 30px;
+	box-sizing: border-box;
+	text-align: left;
+}
+
+.images{
+	float: left;
+	width: 30%;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.images	img{
+	width: 80%;
+	border-radius: 50%;
+}
 
 #mainFooter{
 	background: #3A3F45; 
