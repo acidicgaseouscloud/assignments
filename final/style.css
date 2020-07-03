@@ -12,7 +12,7 @@ body{
 /*font: 15px/1.5 Arial, Helvetica; works the same way as all the above stuff*/
 
 a {
-	color: #fff;
+	color: black;
 }
 
 .container{
@@ -233,7 +233,11 @@ tr:hover {
 #staff .member p {
 	margin: 5%;
 	text-align: left;
+}
 
+
+.form {
+	margin: 20px;
 }
 
 
