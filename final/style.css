@@ -212,6 +212,30 @@ tr:hover {
 }
 
 
+#staff {
+	margin-top: 20px;
+}
+
+#staff .member{
+	float: left;
+	width: 33%;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#staff .member img{
+	width: 90%;
+	border-radius: 50%;
+	margin: 1%;
+}
+
+#staff .member p {
+	margin: 5%;
+	text-align: left;
+
+}
+
 
 #mainFooter{
 	background: #3A3F45; 
