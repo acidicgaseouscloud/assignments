@@ -134,7 +134,6 @@ a {
   opacity: 0.3;
 }
 
-
 #map{
 	margin: 30px 0;
    background-color: grey;
@@ -247,7 +246,7 @@ tr:hover {
 .description{
 	float:right;
 	width: 70%;
-	padding: 0 30px;
+	padding: 50px 20px;
 	box-sizing: border-box;
 	text-align: left;
 }
