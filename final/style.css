@@ -180,6 +180,38 @@ tr:hover {
 	background-color: #BCBABE;
 }
 
+#sponsors {
+	margin-top: 20px;
+}
+
+#sponsors .sponsor{
+	float: left;
+	width: 25%;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#sponsors .sponsor img{
+	width: auto;
+	height: 200px;
+
+}
+
+#sponsors .sponsorRect {
+	float: left;
+	width: 50%;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#sponsors .sponsorRect img{
+	width: 90%;
+
+}
+
+
 
 #mainFooter{
 	background: #3A3F45; 
