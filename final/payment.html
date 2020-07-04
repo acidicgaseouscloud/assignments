@@ -32,8 +32,8 @@
 				<li><a href="keynote.html">Keynote</a></li>
 				<li><a href="location.html">Location</a></li>
 				<li><a href="sponsors.html">Sponsors</a></li>
-				<li><a href="register.html">Register</a></li>
-				<li><a href="#" class="active">Contact</a></li>
+				<li><a href="#" class="active">Register</a></li>
+				<li><a href="contact.html">Contact</a></li>
 				<li><a href="about.html">About</a></li>
 			</ul>
 		</div>	
@@ -42,21 +42,22 @@
 	<div id="titleNav"> </div>
 
 	<div class="container">
-		
-		<p>You can contact Mondial Media Workforce by: 
-			<ul>
-				<li>Email: <a href="mailto: mmworkforcehelp@mmw.com">mmworkforcehelp@mmw.com</a></li>
-				<li>Helpline number: +31 7 84 39 87 46</li>
-				<li>HQ: Noorderbinnensingel 100, 9712 XJ Groningen. Drop in between 12-16!</li>
-			</ul>
 
-			If you have questions regarding the conferece or would like to sponsor the event, 
-			please fill the following form and we will get back to you as soon as possible! <br> 
+		<p>Please enter your contact details:</p>
 
-			<div id="faq">
+			<div>
 				<label>Name</label>
 				<input type="text" name="name" placeholder="John Doe"> 
 			</div>
+
+			<br>
+
+			<div>
+				<label>Organisation affiliation (for journalists and students only): </label>
+				<input type="text" name="name" placeholder="RuG"> 
+			</div>
+
+			<br>
 
 			<div>	
 				<label>Email:</label>
@@ -66,25 +67,42 @@
 			<br>
 
 			<div>	
-				<label>Type of query:</label>
-				<select name="query">
-					<option value="0">Question</option>
-					<option value="1">Sponsorship offer</option>
-					<option value="2">Other</option>
-				</select>
+				<label>Phone Number:</label>
+				<input type="text" placeholder="+31 1 23 45 67 89"></input>
 			</div>
 
 			<br>
 
 			<div>	
-				<label>Elaborate:</label>
-				<textarea name="query" placeholder="What time does the conference start?"></textarea>
+				<label>Type of ticket:</label>
+				<select name="query">
+					<option value="0">General</option>
+					<option value="1">Journalist</option>
+					<option value="2">Student</option>
+				</select>
 			</div>
 
 			<br>
 
-			<input type="submit" name="submit" value="submit">
-		</p>
+			<p>Please enter your payment details:</p>
+
+			<div>	
+				<label>Method of payment:</label>
+				<select name="query">
+					<option value="0">iDeal</option>
+					<option value="1">Visa</option>
+					<option value="2">Mastercard</option>
+				</select>
+			</div>
+
+			<br>
+
+			<div class="clr"> </div>
+
+				<button>Submit</button>
+
+			<div class="clr"> </div>
+
 	</div>
 
 	<footer id="mainFooter">
