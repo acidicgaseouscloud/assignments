@@ -239,8 +239,25 @@ tr:hover {
 	margin: 20px;
 }
 
-.faq form[type="text, email"]{
+input{
+	width: 80%;
 	padding: 10px;
+	margin: 10px;
+	box-sizing: border-box;
+}
+
+select{
+	width: 80%;
+	padding: 10px;
+	margin: 10px;
+	box-sizing: border-box;
+}
+
+textarea{
+	width: 80%;
+	padding: 10px;
+	margin: 10px;
+	box-sizing: border-box;
 }
 
 .clr{
