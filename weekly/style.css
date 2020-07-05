@@ -12,7 +12,12 @@ body{
 
 a {
 	color: #fff;
+} 
+
+a:hover{
+	color: #FEB845;
 }
+
 
 .container{
 	width: 80%;
@@ -114,6 +119,7 @@ li a:hover{
 
 .bodimg{
 	display: block;
+	align-self: center;
 	width: 80%;
 	margin: auto;
 	padding: 20px 0;
