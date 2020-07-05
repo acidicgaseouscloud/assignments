@@ -312,25 +312,53 @@ button:hover{
 	color: #BCBABE;
 }
 
-@media(max-width:790px){
-	#main{
-		width: 100%;
-		float:none;
-	}
+@media(max-width:800px){
 	.container{
+		width: 90%;
+		float:none;
+	}
+
+	#speakers .speaker{
 		width: 100%;
 		float:none;
 	}
 
-	.speakers{
+	#sponsors .sponsor{
 		width: 100%;
 		float:none;
 	}
 
-	.sponsors{
+	#sponsors .sponsorRect{
 		width: 100%;
 		float:none;
 	}
 
-	.
+	#staff .member{
+		width: 100%;
+		float:none;
+	}
+
+	#navbar{
+		position: static;
+		margin-top: 70px;
+	}
+
+	#navbar li {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 20px;
+  }
+
+  	#titleNav{
+  		padding-top: 0px;
+  	}
+
+  	table{
+  		width: 100%;
+  	}
+
+  	button{
+  		margin-top: 20px; 
+  	}
 }
