@@ -20,7 +20,7 @@ a {
 	margin: auto;
 	overflow: hidden;
 }
-#mainHeader{
+#main-header{
 	background-color: #33E0C4;
 	color: #fff;
 	padding-top: 7px;
@@ -29,7 +29,7 @@ a {
 	width: 100%;
 }
 
-#mainHeader img{
+#main-header img{
 	vertical-align: middle;
 	width: 50px;	
 	padding-right: 20px;
@@ -40,7 +40,7 @@ a {
    align-items:center;
 }
 
-#mainHeader h1{
+#main-header h1{
 	display: inline;
 	font-size: 2.5em;
 }
@@ -84,7 +84,7 @@ a {
 	color: white; 
 }
 
-#titleNav{
+#title-nav{
 	padding-top: 136px;
 }
 
@@ -300,7 +300,7 @@ button:hover{
 	color: white;
 }
 
-#mainFooter{
+#main-footer{
 	background: #3A3F45; 
 	color: #f7f7f7;
 	text-align: center;
@@ -350,7 +350,7 @@ button:hover{
     padding: 20px;
   }
 
-  	#titleNav{
+  	#title-nav{
   		padding-top: 0px;
   	}
 
